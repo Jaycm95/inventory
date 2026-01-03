@@ -9,7 +9,7 @@ public class LoginModel {
     private String username;
 
     @NotBlank(message = "Password is required")
-    @Size(min = 4, message = "Password must be at least 4 characters")
+    @Size(min = 4, message = "Password must be at least 8 characters")
     private String password;
 
     public String getUsername() {
