@@ -53,7 +53,7 @@ public class LoginController {
 		{
 			model.addAttribute("title", "Login Form");
 			model.addAttribute("loginError", "Invalid username or password.");
-			System.out.println("Wrong Username or Password Entered");
+			//System.out.println("Wrong Username or Password Entered");
 			return "login";
 		}
 		
@@ -62,7 +62,7 @@ public class LoginController {
 
         //model.addAttribute("loginError", "Invalid username or password");
         //return "login";
-		return "/list";
+		return "home";
     }
     
     // Added for milestone 3

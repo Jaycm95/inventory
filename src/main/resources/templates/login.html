@@ -6,7 +6,7 @@
     <h2>Login</h2>
 	<!-- Added For Milestone 3 -->
 	<div th:if="${loginError}" th:text="${loginError}" style="color:red; font-weight:bold;"></div>
-    <form th:action="@{/doLogin}" th:object="${loginModel}" method="post">
+    <form th:action="@{/login/doLogin}" th:object="${loginModel}" method="post">
 
         <div class="mb-3">
             <label class="form-label">Username</label>
